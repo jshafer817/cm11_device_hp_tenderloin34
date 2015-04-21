@@ -172,10 +172,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/hp/tenderloin/configs/audio_policy.conf:system/etc/audio_policy.conf
 
-# MER TOUCH
-PRODUCT_COPY_FILES += \
-    device/hp/tenderloin/prebuilt/bin/ts_srv_mer:system/bin/ts_srv_mer
-
 # Sensors, misc
 PRODUCT_PACKAGES += \
     librs_jni \
